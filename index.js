@@ -12,4 +12,4 @@ function destructivelyUpdateDriverWithKeyAndValue(drive,key,value){
 }
 
 const newDriver = DeleteFromDriverByKey(driver,name,'Sam');
-const newDriver = DeleteFromDriverByKey(driver,name,'Sam');
+const newDriver = destructivelyDeleteFromDriverByKey(driver,name,'Sam');
